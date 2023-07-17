@@ -1,0 +1,56 @@
+/* quiz.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+#question_Div {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h5 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+p {
+    font-size: 16px;
+    color: #666666;
+    margin: 5px 0;
+}
+
+p:hover {
+    cursor: pointer;
+    background-color: #f2f2f2;
+}
+
+p.selected {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+/* Next button (optional) */
+#nextBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#nextBtn:hover {
+    background-color: #0056b3;
+}
